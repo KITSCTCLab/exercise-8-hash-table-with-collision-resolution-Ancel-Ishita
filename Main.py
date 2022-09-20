@@ -10,7 +10,7 @@ def display_hash(hashtable) -> None:
 def Hashing(keyvalue) -> int:
  return keyvalue % len(HashTable)
 
-def insert(Hashtable, keyvalue, value) -> None
+def insert(Hashtable, keyvalue, value) -> None:
  Hashtable[Hashing(keyvalue)].append(value)
 
 
